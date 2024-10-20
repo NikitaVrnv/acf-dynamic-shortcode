@@ -1,4 +1,4 @@
-
+<?php
 /**
  * Shortcode to dynamically retrieve ACF field values with enhanced functionality.
  *
@@ -224,3 +224,5 @@ function get_acf_field($atts) {
     }
 }
 add_shortcode( 'acf_field', 'get_acf_field' );
+//
+?>
